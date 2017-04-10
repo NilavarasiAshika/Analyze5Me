@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.arief.analyze5me" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TeacherReg"
+            android:label="@string/title_activity_teacher_reg" >
+        </activity>
+        <activity
+            android:name=".StudentReg"
+            android:label="@string/title_activity_student_reg" >
+        </activity>
+        <activity
+            android:name=".TeacherLogin"
+            android:label="@string/title_activity_teacher_login" >
+        </activity>
+        <activity
+            android:name=".StudentLogin"
+            android:label="@string/title_activity_student_login" >
+        </activity>
+        <activity
+            android:name=".Task"
+            android:label="@string/title_activity_task" >
+        </activity>
+        <activity
+            android:name=".Upload"
+            android:label="@string/title_activity_upload" >
+        </activity>
+        <activity
+            android:name=".AttendTest"
+            android:label="@string/title_activity_attend_test" >
+        </activity>
+        <activity
+            android:name=".Test"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name=".Marks"
+            android:label="@string/title_activity_marks" >
+        </activity>
+        <activity
+            android:name=".OverAll_performance"
+            android:label="@string/title_activity_over_all_performance" >
+        </activity>
+        <activity
+            android:name=".FeedBack"
+            android:label="@string/title_activity_feed_back" >
+        </activity>
+        <activity
+            android:name=".Box"
+            android:label="@string/title_activity_box" >
+        </activity>
+        <activity
+            android:name=".Topic_Name"
+            android:label="@string/title_activity_topic__name" >
+        </activity>
+        <activity
+            android:name=".Graph"
+            android:label="@string/title_activity_graph" >
+        </activity>
+        <activity
+            android:name=".Feedbacks"
+            android:label="@string/title_activity_feedbacks" >
+        </activity>
+        <activity
+            android:name=".FeebBacks"
+            android:label="@string/title_activity_feeb_backs" >
+        </activity>
+        <activity
+            android:name=".FeedBacks"
+            android:label="@string/title_activity_feed_backs" >
+        </activity>
+        <activity
+            android:name=".Instruction"
+            android:label="@string/title_activity_instruction" >
+        </activity>
+    </application>
+
+</manifest>
